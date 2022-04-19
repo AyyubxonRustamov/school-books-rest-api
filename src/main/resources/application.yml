@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+spring:
+  sql:
+    init:
+      mode: always
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Ayyub0906
+    url: jdbc:postgresql://localhost:5432/maktab-darsliklari
